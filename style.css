@@ -676,8 +676,9 @@ a {
     margin: auto auto auto auto;
 }
 
+/*passage à 13px pour une meilleure accessibilité*/
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -841,6 +842,11 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation-min.jpg");
+}
+
+/*Amélioration de l'ccessibilité, mise en place de plus d'espace pour facilité le clic*/
+.space {
+    padding: 12px;
 }
 
 @media (max-width: 1024px) {
