@@ -1050,6 +1050,11 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .portfolio-thumb {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
 }
 
 @media (max-width: 400px) {
